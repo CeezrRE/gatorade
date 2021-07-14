@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --backgroundColor: #e2e2e2;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Teko', san-serif;
+    background-color: var(--backgroundColor);
+}
+
+.container {
+    display: flex;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    margin: 1rem;
+}
